@@ -1,28 +1,28 @@
 class KiroGateway < Formula
   desc "Proxy gateway for Kiro API - OpenAI and Anthropic compatible"
   homepage "https://github.com/if414013/rkgw"
-  version "0.2.0"
+  version "1.0.0"
   license "AGPL-3.0"
 
   on_macos do
     on_intel do
       url "https://github.com/if414013/rkgw/releases/download/v#{version}/kiro-gateway-x86_64-apple-darwin.tar.gz"
-      sha256 "8a7cc847777d9e6e213c11b24041837a78cbf54ea3b504cd099a357835270513"
+      sha256 "d9dbc909e99e622d27ee8126f012bea8fd8665044de36a0a5f973a6d34b2ea9d"
     end
     on_arm do
       url "https://github.com/if414013/rkgw/releases/download/v#{version}/kiro-gateway-aarch64-apple-darwin.tar.gz"
-      sha256 "6a865dfedd84e0135744d42b970da334ca1f95faff967e3c614a03cb0b7123b1"
+      sha256 "e450674f5c4a7899edeb06d322fbfa07be345a5f4c1812e84985a561449d1139"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/if414013/rkgw/releases/download/v#{version}/kiro-gateway-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "71c31207e4f4294b5bb9fe7dc9fd1119460f9f99e861435a860a5f2af2549dc7"
+      sha256 "97d89018f26a1cc268882565d8701c546f603af2c2679960f326572e95571a9b"
     end
     on_arm do
       url "https://github.com/if414013/rkgw/releases/download/v#{version}/kiro-gateway-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "74e187ccd0d047e88e5001091dda5498778b556bfc491b16f9bbf8651d6f2815"
+      sha256 "73c38df7133b6d4f5d31d18d135508ae91090e9d9bfc96d780d7e15a6aa62f52"
     end
   end
 
